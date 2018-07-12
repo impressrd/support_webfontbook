@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Font Loader</title>
+  <!-- Web Font Loader -->
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    const WebFontConfig = {
+      google: {
+        families: ['Noto Sans', 'Noto Serif']
+      }
+    };
+
+    // タイムアウト
+    const WebFontConfigTimeout = {
+      google: {
+        families: ['Noto Sans']
+      },
+      timeout: 2000
+    };
+
+    // ウエイトを指定する場合
+    const WebFontConfigWeight = {
+      google: {
+        families: ['Noto Sans:300,700']
+      }
+    };
+
+    // テキストを指定して、サブセット化
+    const WebFontConfigSubset = {
+      google: {
+        families: families: ['Noto Sans', 'Noto Serif'],
+        text: 'abcdefghijklmnopqrstuvwxyz!'
+      }
+    };
+
+    WebFont.load(WebFontConfig);
+  </script>
+</head>
+<body>
+
+</body>
+</html>
