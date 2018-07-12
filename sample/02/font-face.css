@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 100;
+  src: url(/src/fonts/NotoSansCJKjp-Thin.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Thin.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 300;
+  src: url(/src/fonts/NotoSansCJKjp-Light.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 350;
+  src: url(/src/fonts/NotoSansCJKjp-DemiLight.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-DemiLight.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 400;
+  src: url(/src/fonts/NotoSansCJKjp-Regular.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 500;
+  src: url(/src/fonts/NotoSansCJKjp-Medium.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 700;
+  src: url(/src/fonts/NotoSansCJKjp-Bold.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans CJK JP";
+  font-weight: 900;
+  src: url(/src/fonts/NotoSansCJKjp-Black.woff2) format("woff2"),
+       url(/src/fonts/NotoSansCJKjp-Black.woff) format("woff");
+}
+
+body {
+  font-family: "Noto Sans", "Noto Sans CJK JP", sans-serif;
+}
